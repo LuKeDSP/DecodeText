@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DecoderONE</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1>Decoder<span>ONE</span></h1>
+    </header>
+    <main>
+      <section class="text-container">
+        <textarea
+          placeholder="Digite seu texto..."
+          style="resize: none;"
+          id="input-texto"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <div class="btn-container">
+          <input value="Codificar" type="submit" class="codificar" />
+          <input value="Decodificar" type="submit" class="decodificar" />
+        </div>
+      </section>
+      <aside>
+        <textarea class="output"></textarea>
+        <input value="Copiar" type="submit" class="copiar" />
+      </aside>
+    </main>
+    <footer>
+      <p>Criado por Luke Pilatti<br>
+         instagram: @luke_pilatti<br>
+         WhatsApp: (48) 99140-8062
+      </p>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
